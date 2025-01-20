@@ -1,0 +1,22 @@
+# Do-while-loop
+coding:
+import java.util.Scanner;
+
+public class DoWhileExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the value of n: ");
+        int n = scanner.nextInt();
+        int i = 1; 
+        System.out.println("The first " + n + " numbers are:");
+        do {
+            System.out.print(i + " ");
+            i++; 
+        } while (i <= n);
+        scanner.close();
+    }
+}
+
+output:
+The first 5 numbers are:
+1 2 3 4 5
